@@ -1,0 +1,93 @@
+body {
+text-align: center;
+color:aliceblue;
+margin: 0%;
+}
+#container {
+  background-image: url('/fundo.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+
+}
+@media (min-width: sm) {
+  .container{
+      background-image: url('/fundo.png');
+  }
+}
+
+@media (min-width: md) {
+  .container{
+      background-image: url('/fundo.png');
+  }
+}
+
+@media (min-width: lg) {
+  .container{
+      background-image: url('/fundo.png');
+  }
+}
+@font-face {
+  font-family: looney-tunes;
+  src: url(../looney-tunes-tilt-bt.ttf)
+}
+h1{
+  font-family: looney-tunes;
+  font-size:70px;
+  margin-bottom: auto;
+  margin-left: 325px;
+}
+audio{
+  display:inline;
+  float: right;
+  margin-right: 10px;
+  height: 15px;
+  overflow: hidden;
+  opacity: 40%;
+ 
+}
+
+.quadrado{
+    text-align: center;
+    width: 50px;
+    height: 65px;
+    background-color: #FF8C00;
+    display: inline-block;
+    padding: 40px;
+    font-size: 0px;
+    margin: 7px;
+    cursor: pointer;
+    color: #FF8C00;
+}
+
+
+label, .jogador, .vencedor, .jogadorselecionado, .vencedorselecionado{
+  font-family: 'Fredoka One', cursive;
+    font-size: 32px;
+    margin-top: 7px;
+    margin-bottom: 1px;
+
+}
+.buttonClass{
+    margin-top: 17px;
+    font-size:15px;
+    font-family:Arial;
+    width:140px;
+    height:50px;
+    border-width:1px;
+    color:#c92200;
+    border-color:#e65f44;
+    font-weight:bold;
+    border-top-left-radius:6px;
+    border-top-right-radius:6px;
+    border-bottom-left-radius:6px;
+    border-bottom-right-radius:6px;
+    box-shadow:inset 0px 1px 0px 0px #f9eca0;
+    text-shadow:inset 0px 1px 0px #ded17c;
+    background:linear-gradient(#f0c911, #f2ab1e);
+  }
+  
+  .buttonClass:hover {
+    background: linear-gradient(#f2ab1e, #f0c911);
+  }
