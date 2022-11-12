@@ -114,15 +114,15 @@ function mudarvencedor(quadrado){
 
 function mudaCor(quadrado1,quadrado2,quadrado3){
     if (quadrado1.innerHTML,quadrado2.innerHTML,quadrado3.innerHTML === 'Pernalonga'){
-    quadrado1.style.backgroundImage = 'url(/perna3.png)';
-    quadrado2.style.backgroundImage = 'url(/perna3.png)';
-    quadrado3.style.backgroundImage = 'url(/perna3.png)';
+    quadrado1.style.backgroundImage = 'url(perna3.png)';
+    quadrado2.style.backgroundImage = 'url(perna3.png)';
+    quadrado3.style.backgroundImage = 'url(perna3.png)';
     
 } else{
     quadrado1,quadrado2,quadrado3 === 'Patolino'
-    quadrado1.style.backgroundImage = 'url(/pato3.png)';
-    quadrado2.style.backgroundImage = 'url(/pato3.png)';
-    quadrado3.style.backgroundImage = 'url(/pato3.png)';
+    quadrado1.style.backgroundImage = 'url(pato3.png)';
+    quadrado2.style.backgroundImage = 'url(pato3.png)';
+    quadrado3.style.backgroundImage = 'url(pato3.png)';
 
 }
 }
