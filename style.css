@@ -4,7 +4,7 @@ color:aliceblue;
 margin: 0%;
 }
 #container {
-  background-image: url('/fundo.png');
+  background-image: url('fundo.png');
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
@@ -13,19 +13,19 @@ margin: 0%;
 }
 @media (min-width: sm) {
   .container{
-      background-image: url('/fundo.png');
+      background-image: url('fundo.png');
   }
 }
 
 @media (min-width: md) {
   .container{
-      background-image: url('/fundo.png');
+      background-image: url('fundo.png');
   }
 }
 
 @media (min-width: lg) {
   .container{
-      background-image: url('/fundo.png');
+      background-image: url('fundo.png');
   }
 }
 @font-face {
